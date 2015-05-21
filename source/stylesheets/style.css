@@ -10,14 +10,14 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Ek Mukta', sans-serif;
-	font-weight: 300;
+    font-family: 'Ek Mukta', sans-serif, tahoma;
+		font-weight: 300;
     color: #666;
     background-color: #fff;
-	font-size: 16px;
+		font-size: 16px;
     line-height: 1.6em;
-	font-weight: 400;
-	overflow-x: hidden;
+		font-weight: 400;
+		overflow-x: hidden;
 }
 
 html {
@@ -53,7 +53,7 @@ h6 {
     margin: 0 0 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-	color: #111;
+/*	color: #111;*/
 }
 
 h1.h-xlight,h2.h-xlight,h3.h-xlight ,h4.h-xlight ,h5.h-xlight ,h6.h-xlight  {
@@ -153,7 +153,7 @@ blockquote strong {
 	margin-top: 10px;
 }
 .site-logo a.brand {
-	color: #111;
+	color: #EF4B24;
 	text-transform: uppercase;
 	font-size: 32px;
 	font-family: 'Roboto', sans-serif;
@@ -198,7 +198,7 @@ blockquote strong {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+    color: #EF4B24;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -358,7 +358,7 @@ hr.bold {
 }
 
 .color-dark .section-heading h2 {
-	color: #111;
+		color: #EF4B24;
 }
 .color-dark .section-heading p {
 	color: #444;
@@ -380,7 +380,7 @@ hr.bold {
 
 
 .color-light .section-heading h2 {
-	color: #fff;
+	color: #EF4B24;
 }
 .color-light .section-heading p {
 	color: #fefefe;
@@ -417,12 +417,12 @@ hr.bold {
 --- Intro
 ============================ */
 
-.hero { background: url(../images/hero-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; }
+.hero { background: url(../images/Xinari_background.jpeg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto;}
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #fff;}
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { font-size: 24px; font-weight: 400; color: #fefefe; }
-.learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
-.learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
+.learn-more-btn { background: rgba(239, 75, 36, 1); padding: 20px 40px; border-radius: 8px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #EF4B24; -moz-box-shadow: 0px 3px 0px 0px #EF4B24; box-shadow: 0px 3px 0px 0px #EF4B24; margin: 60px 0 0; font-weight: bold; }
+.learn-more-btn:hover, .learn-more-btn:focus { background: rgba(239, 75, 36, 0.6); color: #fff; }
 
 
 
@@ -588,6 +588,11 @@ hr.bold {
 .service-icon {
 	margin-bottom: 20px;
 }	
+
+.service-icon img{
+	width: 50%;
+	height: auto
+}
 
 .service-desc h5 {
 	text-transform: uppercase;
@@ -916,8 +921,9 @@ a.btn:focus{
 .btn-skin:active,
 .btn-skin.active {
   color: #fff;
-  background-color: #666;
+  background-color: #EF4B24;
   border-color: #666;
+  border-radius: 8px;
 }
 
 
