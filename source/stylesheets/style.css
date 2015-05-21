@@ -795,12 +795,12 @@ form.search-form input:focus {
 ============================ */
 
 footer {
-    background-color: #404040;
+    background-color: #EF4B24;
 }
 
 footer {
 	text-align: center;
-	padding: 50px 0 30px ;
+	padding: 1px 0 1px 0;
 	
 }
 
@@ -811,7 +811,7 @@ footer p {
 
 footer a.totop {
 	color: #fff;
-	margin-bottom: 30px;
+	margin-bottom: 1px;
 }
 footer a.totop:focus {
 	outline: 0;
@@ -826,7 +826,7 @@ ul.footer-menu {
 
 ul.footer-menu li {
 	float: left;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 1px;
 
 }
 

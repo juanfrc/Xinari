@@ -3,6 +3,12 @@ a:focus {
     color: #EF4B24;
 }
 
+.cont img, .cont p{
+	width: 70%;
+	height: auto;
+	margin: auto;
+}
+
 #navigation {
 	border-top: 5px solid #EF4B24;
 }
@@ -58,9 +64,6 @@ form.search-form input:focus {
 }
 
 /* footer */
-ul.footer-menu li a:hover {
-	color: #EF4B24;
-}
 
 footer a.totop:hover {
 	color: #EF4B24;
